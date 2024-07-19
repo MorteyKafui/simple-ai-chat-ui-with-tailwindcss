@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/style.css" />
+    <title>EnvisionAI | Dashboard</title>
+  </head>
+  <body>
+    <main class="flex text-white w-full h-screen">
+      <!-- sidebar -->
+      <section class="bg-darkColor p-4 flex flex-col justify-between w-[17%]">
+        <div class="flex gap-2 items-center justify-between">
+          <div class="flex gap-2 items-center text-xl font-bold">
+            <img class="size-8" src="./logo.svg" alt="" />
+            <h1>EnvisionAI</h1>
+          </div>
+          <div>
+            <img class="size-6 hover:cursor-pointer" src="edit.svg" alt="" />
+          </div>
+        </div>
+        <div class="flex flex-col justify-center flex-wrap gap-4 text-sm">
+          <p class="hover:bg-lightDarkColor p-2 rounded-xl cursor-pointer">
+            Introduction to JavaScript.....
+          </p>
+          <p class="hover:bg-lightDarkColor p-3 rounded-xl cursor-pointer">
+            What are functions in JS
+          </p>
+          <p class="hover:bg-lightDarkColor p-2 rounded-xl cursor-pointer">
+            Introduction to Python.....
+          </p>
+          <p class="hover:bg-lightDarkColor p-2 rounded-xl cursor-pointer">
+            Algorithms and Data Structures in Python
+          </p>
+        </div>
+        <div class="flex gap-2 items-center">
+          <img class="size-8" src="./stars.svg" alt="" />
+          <div>
+            <p>Upgrade plan</p>
+            <p class="text-gray-400 text-sm">
+              Get all EnvisionAI models and more.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="bg-lightDarkColor flex-1 flex flex-col p-8 justify-between"
+      >
+        <div class="flex justify-between items-center">
+          <h1>EnvisionAI</h1>
+          <p class="p-2 font-bold text-center bg-redColor rounded-full">KA</p>
+        </div>
+        <div class="flex flex-col items-center gap-8">
+          <img class="size-16" src="./logo.svg" alt="" />
+          <div class="flex items-center justify-center gap-8">
+            <div
+              class="border p-6 rounded-xl border-yellowColor hover:cursor-pointer hover:bg-[#323232a4] transition-all duration-500"
+            >
+              <img class="mb-2 size-5" src="./bulb.svg" alt="" />
+              <p>
+                What to do <br />
+                with kid's art
+              </p>
+            </div>
+            <div
+              class="border p-6 rounded-xl border-redColor hover:cursor-pointer hover:bg-[#323232a4] transition-all duration-500"
+            >
+              <img class="mb-2 size-5" src="./cmd.svg" alt="" />
+              Make me a <br />
+              personal webpage
+            </div>
+            <div
+              class="border p-6 rounded-xl border-pinkColor hover:cursor-pointer hover:bg-[#323232a4] transition-all duration-500"
+            >
+              <img src="./edit.svg" class="mb-2 size-5" alt="" />
+              <p>
+                Text inviting <br />
+                friend to wedding
+              </p>
+            </div>
+            <div
+              class="border p-6 rounded-xl border-lightBlueColor hover:cursor-pointer hover:bg-[#323232a4] transition-all duration-500"
+            >
+              <img src="./academic.svg" class="mb-2 size-5" alt="" />
+              <p>
+                Explain nostalgia <br />
+                to kindergartener
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-4 justify-center items-center">
+          <input
+            class="py-4 px-8 rounded-full w-2/3 bg-[#2F2F2F] outline-none"
+            type="text"
+            placeholder="Message EnvisionAI"
+          />
+          <p class="text-gray-400">
+            EnvisionAI can make mistakes. Check important info.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
